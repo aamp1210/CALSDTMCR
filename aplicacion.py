@@ -1,5 +1,5 @@
-from frm_Principal import frm_Principal
+from frm_Principal import Principal
 
-class Aplicacion():
-    def __init__(root):
-        root = frm_Principal()
+class Aplication():
+    def __init__():
+        root = Principal()

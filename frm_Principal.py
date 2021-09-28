@@ -1,7 +1,8 @@
+from _typeshed import Self
 from tkinter import *
 from tkinter import ttk
 
-class frm_Principal():
+class Principal():
     principal = Tk()
 
     #Titulo de la barra titulo de la ventana.
@@ -13,6 +14,9 @@ class frm_Principal():
     #pasa al atrubuto geometri la resolucion de la pantalla solicitada al sistema en ancho y alto.
     principal.geometry("%dx%d+0+0" % (w, h))
 
-    #icono de la ventana principal
-    principal.iconbitmap('cadena.ico')
+    principalFrame = Frame(principal)
+    principalFrame.pack(fill=BOTH, expand=1)
+
+
+
     principal.mainloop()

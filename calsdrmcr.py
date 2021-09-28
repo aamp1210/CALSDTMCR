@@ -1,7 +1,7 @@
-from aplicacion import Aplicacion
+from aplicacion import Aplication
 
 def main():
-    sdtmcr = Aplicacion()
+    sdtmcr = Aplication()
     return(0)
 
 if __name__ == '__main__':
